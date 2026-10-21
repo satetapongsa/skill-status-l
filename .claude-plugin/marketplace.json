@@ -1,0 +1,11 @@
+{
+  "name": "prismline",
+  "owner": { "name": "satetapongsa" },
+  "plugins": [
+    {
+      "name": "prismline",
+      "source": "./",
+      "description": "A rainbow, information-dense status line for Claude Code."
+    }
+  ]
+}

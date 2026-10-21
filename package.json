@@ -1,0 +1,27 @@
+{
+  "name": "prismline",
+  "version": "1.0.0",
+  "description": "A rainbow, information-dense status line for Claude Code: model, git, cost, context window, tokens and plan limits with pace tracking.",
+  "bin": {
+    "prismline": "skills/prismline/scripts/install.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node tools/render-demo.js",
+    "preview": "node -e \"process.stdout.write(JSON.stringify({model:{display_name:'Opus'},context_window:{used_percentage:42}}))\" | node skills/prismline/scripts/statusline.js"
+  },
+  "files": [
+    "skills/",
+    ".claude-plugin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["claude-code", "claude", "statusline", "status-line", "terminal", "cli", "rainbow", "truecolor"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satetapongsa/skill-status-l.git"
+  },
+  "author": "satetapongsa",
+  "license": "MIT"
+}

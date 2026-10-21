@@ -1,0 +1,10 @@
+{
+  "name": "prismline",
+  "version": "1.0.0",
+  "description": "A rainbow, information-dense status line for Claude Code: model, git, cost, context window, tokens and plan limits with pace tracking.",
+  "author": { "name": "satetapongsa", "url": "https://github.com/satetapongsa" },
+  "homepage": "https://github.com/satetapongsa/skill-status-l",
+  "repository": "https://github.com/satetapongsa/skill-status-l",
+  "license": "MIT",
+  "keywords": ["statusline", "status-line", "claude-code", "terminal", "rainbow"]
+}
