@@ -83,7 +83,7 @@ Then just ask Claude: *"install prismline"*. The bundled skill handles setup, an
 
 ```bash
 git clone https://github.com/satetapongsa/skill-status-l.git
-node prismline/skills/prismline/scripts/install.js
+node skill-status-l/skills/prismline/scripts/install.js
 ```
 
 <details>
